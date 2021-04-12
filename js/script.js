@@ -99,7 +99,7 @@ document.querySelector(".tombol").addEventListener('click', function () {
                           title: 'Oh iya aku mau nanya',
                           text: 'Ada sesuatu yang lagi kamu pingin ga?',
                           showDenyButton: true,
-                          confirmButtonText: `Ada by`,
+                          confirmButtonText: `Ada`,
                           denyButtonText: `Ga ada ko`,
                         }).then((result) => {
                           /* Read more about isConfirmed, isDenied below */
@@ -115,7 +115,7 @@ document.querySelector(".tombol").addEventListener('click', function () {
                                 }
                               }
                             }).then((result) => {
-                              Swal.fire('Okey by', 'Nanti aku kabulin kemauan kamu yaa', 'success').then((result) => {
+                              Swal.fire('Okey siap', 'Nanti aku kabulin kemauan kamu yaa', 'success').then((result) => {
                                 Swal.fire("See ya! Aku kangen ^^").then((result) => {
                                   selesai()
                                 });
