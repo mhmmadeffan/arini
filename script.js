@@ -6,12 +6,12 @@ let doi;
 if (url.searchParams.get('in') != null) {
   doi = url.searchParams.get('in');
 } else {
-  doi = "Irna";
+  doi = "Arini";
 }
 
 let footer = document.getElementById("credit");
 footer.innerHTML = doi;
-footer.href = "https://www.instagram.com/adamukti/";
+footer.href = "https://www.instagram.com/mhmmadeffan/";
 
 function time() {
   var d = new Date();
